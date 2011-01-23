@@ -1,6 +1,14 @@
 require 'string_calculator'
 
 # String Calculator
+# 
+#
+# 1. Create a simple String calculator with a method Add(numbers) that takes a string
+#
+#   - The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or “1” or “1,2”
+#   - Start with the simplest test case of an empty string and move to 1 and two numbers
+#   - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+#   - Remember to refactor after each passing test
 #
 # 2. Allow the Add method to handle an unknown amount of numbers
 # 
@@ -18,11 +26,11 @@ require 'string_calculator'
 # 
 # 5. Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was
 #    passed.if there are multiple negatives, show all of them in the exception message
-#
+# 
 # --------------------------------------------------------------------------------------------------- 
 #  stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
 # ---------------------------------------------------------------------------------------------------
-#
+# 
 # 6. Numbers bigger than 1000 should be ignored, so adding 2 + 1001  = 2
 # 
 # 7. Delimiters can be of any length with the following format:  “//[delimiter]\n” for example:
